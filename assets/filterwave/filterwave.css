@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'filterwave';
+  src:
+    url('fonts/filterwave.ttf?30c71u') format('truetype'),
+    url('fonts/filterwave.woff?30c71u') format('woff'),
+    url('fonts/filterwave.svg?30c71u#filterwave') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'filterwave' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tri:before {
+  content: "\e904";
+}
+.icon-sine:before {
+  content: "\e903";
+}
+.icon-LP:before {
+  content: "\e902";
+}
+.icon-BP:before {
+  content: "\e901";
+}
+.icon-sawUp:before {
+  content: "\e907";
+}
+.icon-square:before {
+  content: "\e906";
+}
+.icon-sawDown:before {
+  content: "\e905";
+}
+.icon-HP:before {
+  content: "\e900";
+}
