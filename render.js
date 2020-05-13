@@ -9756,7 +9756,7 @@ var SelectComponent = exports.SelectComponent = function SelectComponent(_ref6) 
                 placeholder
             ),
             arrowRenderer: function arrowRenderer() {
-                return _react2.default.createElement("img", { src: "../src/assets/selectArrow.svg", width: 26, height: 26 });
+                return _react2.default.createElement("img", { src: "./assets/selectArrow.svg", width: 26, height: 26 });
             },
             clearable: false,
             searchable: false,
@@ -48841,7 +48841,7 @@ var LogoContainer = function LogoContainer() {
         ["neutron", "behringer"].map(function (brand, i) {
             return _react2.default.createElement("img", { key: i, className: "logo",
                 id: brand,
-                src: "../src/assets/" + brand + "Logo.svg" });
+                src: "./assets/" + brand + "Logo.svg" });
         })
     );
 };
@@ -59312,7 +59312,7 @@ var ConnectionIndicator = function ConnectionIndicator(_ref) {
         _react2.default.createElement(
             "div",
             { id: id, className: status[connectionStatus].className, "data-tip": true, "data-for": tooltipID },
-            _react2.default.createElement("img", { src: "../src/assets/usb.svg" })
+            _react2.default.createElement("img", { src: "./assets/usb.svg" })
         ),
         _react2.default.createElement(
             _reactTooltip2.default,
@@ -65910,9 +65910,9 @@ var Tuner = function (_React$Component) {
                 _react2.default.createElement(
                     "div",
                     { className: "tuner", id: "oscTuner" + oscIndex },
-                    _react2.default.createElement("img", { className: "needle", src: "../src/assets/tunerNeedle.svg",
+                    _react2.default.createElement("img", { className: "needle", src: "./assets/tunerNeedle.svg",
                         style: _mapToStyle(_mapCentsToRotation(oscNote.offset)) }),
-                    _react2.default.createElement("img", { className: "needle dot", src: "../src/assets/tunerDot.svg",
+                    _react2.default.createElement("img", { className: "needle dot", src: "./assets/tunerDot.svg",
                         style: _mapToStyle(this.state.dotAngle.debounced) }),
                     _react2.default.createElement(NoteFreqLabel, { note: oscNote,
                         className: "overlay" })
@@ -67431,7 +67431,7 @@ var VCFModeControl = function VCFModeControl(_ref) {
                                     onClick: function onClick() {
                                         return _onClick((i - (id - 1) + filterShapes.length) % filterShapes.length);
                                     } },
-                                _react2.default.createElement("img", { className: "nub", src: "../src/assets/" + shape.nub + ".svg" }),
+                                _react2.default.createElement("img", { className: "nub", src: "./assets/" + shape.nub + ".svg" }),
                                 _react2.default.createElement("span", { className: "shape icon " + shape.icon })
                             );
                         })
